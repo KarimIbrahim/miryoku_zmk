@@ -3,7 +3,7 @@
 
 / {
   behaviors {
-    u_mt_r: u_mt {
+    u_mt_r: u_mt_r {
       compatible = "zmk,behavior-hold-tap";
       label = "u_mt";
       #binding-cells = <2>;
@@ -12,7 +12,7 @@
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;
     };
-    u_mt_l: u_mt {
+    u_mt_l: u_mt_l {
       compatible = "zmk,behavior-hold-tap";
       label = "u_mt";
       #binding-cells = <2>;
