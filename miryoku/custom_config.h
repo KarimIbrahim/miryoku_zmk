@@ -13,3 +13,10 @@ U_NA,         &kp N7,            &kp N8,            &kp N9,            U_NA,    
 U_NA,         &kp N4,            &kp N5,            &kp N6,            U_NA,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_NA,         &kp N1,            &kp N2,            &kp N3,            U_NA,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,         U_NP,              &kp DOT,           &kp N0,            U_NA,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+
+#define MIRYOKU_LAYER_SYM \
+&kp HASH,         &kp LT,           &kp GT,             &kp DQT,           &kp SQT,           &kp UNDER,         &kp LBKT,         &kp RBKT,          &kp PRCNT,          &kp AMPS,           \
+&kp EXCL,         &kp MINUS,        &kp PLUS,           &kp DOT,           &kp EQUAL,         &kp DLLR,          &kp LPAR,         &kp RPAR,          &kp COLON,          &kp PIPE,           \
+&kp CARET,        &kp GRAVE,        &kp ASTRK,          &kp BSLH,          &kp FSLH,          &kp QMARK,         &kp LBRC,         &kp RBRC,          &kp TILDE,          &kp AT,             \
+U_NP,             U_NP,             &kp COMMA,          U_NA,              &kp SEMI,          U_NA,              U_NA,             U_NA,              U_NP,               U_NP
