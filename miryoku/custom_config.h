@@ -7,6 +7,7 @@ U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U_SYM, SPACE),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
+
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
@@ -26,3 +27,10 @@ U_NP,         U_NP,              U_NA,              &kp DOT,           &kp N0,  
 &kp EXCL,         &kp MINUS,        &kp PLUS,           &kp DOT,           &kp EQUAL,         &kp DLLR,          &kp LPAR,         &kp RPAR,          &kp PIPE,           &kp COLON,          \
 &kp CARET,        &kp GRAVE,        &kp ASTRK,          &kp BSLH,          &kp FSLH,          &kp QMARK,         &kp LBRC,         &kp RBRC,          &kp TILDE,          &kp AT,             \
 U_NP,             U_NP,             U_NA,               &kp COMMA,         &kp SEMI,          U_NA,              U_NA,             U_NA,              U_NP,               U_NP
+
+
+#define MIRYOKU_ALTERNATIVES_MEDIA_VI \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         U_RGB_TOG,         \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        U_EP_TOG,          \
+U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_out_tog,        \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_PP,          &kp C_STOP,        &kp C_MUTE,        U_NP,              U_NP
