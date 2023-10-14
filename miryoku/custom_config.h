@@ -16,10 +16,10 @@ U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),   U
 
 
 #define MIRYOKU_LAYER_NUM \
-U_NA,  U_NA,  &kp N7,  &kp N8,   &kp N9,  U_NA,  &u_to_U_BASE,  &u_to_U_EXTRA,  &u_to_U_TAP,  U_BOOT,    \
-U_NA,  U_NA,  &kp N4,  &kp N5,   &kp N6,  U_NA,  &kp RSHFT,     &kp RCTRL,      &kp RALT,     &kp RGUI,  \
-U_NA,  U_NA,  &kp N1,  &kp N2,   &kp N3,  U_NA,  U_NA,          U_NA,           U_NA,         U_NA,      \
-U_NP,  U_NP,  U_NA,    &kp DOT,  &kp N0,  U_NA,  U_NA,          U_NA,           U_NP,         U_NP
+U_NA,  U_NA,       &kp N7,   &kp N8,  &kp N9,     U_NA,  &u_to_U_BASE,  &u_to_U_EXTRA,  &u_to_U_TAP,  U_BOOT,    \
+U_NA,  U_NA,       &kp N4,   &kp N5,  &kp N6,     U_NA,  &kp RSHFT,     &kp RCTRL,      &kp RALT,     &kp RGUI,  \
+U_NA,  &kp COMMA,  &kp N1,   &kp N2,  &kp N3,     U_NA,  U_NA,          U_NA,           U_NA,         U_NA,      \
+U_NP,  U_NP,       &kp DOT,  &kp N0,  &kp SPACE,  U_NA,  U_NA,          U_NA,           U_NP,         U_NP
 
 
 #define MIRYOKU_LAYER_SYM \
