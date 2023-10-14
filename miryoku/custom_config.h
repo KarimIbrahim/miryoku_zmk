@@ -23,9 +23,9 @@ U_NP,  U_NP,       &kp DOT,  &kp N0,  &kp SPACE,  U_NA,  U_NA,          U_NA,   
 
 
 #define MIRYOKU_LAYER_SYM \
-&kp HASH,             &kp LBKT,             &kp RBKT,             &kp PRCNT,             &kp GRAVE,  U_NA,    &kp LBRC,             &kp RBRC,             &kp AMPS,            U_NA,                 \
+&kp GRAVE,            &kp LBKT,             &kp RBKT,             &kp PRCNT,             U_NA,       U_NA,    &kp LBRC,             &kp RBRC,             &kp AMPS,            U_NA,                 \
 U_MT_L(LGUI, CARET),  U_MT_L(LALT, MINUS),  U_MT_L(LCTRL, PLUS),  U_MT_L(LSHFT, EQUAL),  &kp DLLR,   &kp AT,  U_MT_R(RSHFT, LPAR),  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  U_MT_R(RGUI, COLON),  \
-&kp TILDE,            U_NA,                 &kp ASTRK,            &kp BSLH,              U_NA,       U_NA,    &kp UNDER,            U_NA,                 &kp EXCL,            U_NA,                 \
+&kp TILDE,            U_NA,                 &kp ASTRK,            &kp BSLH,              U_NA,       U_NA,    &kp UNDER,            U_NA,                 &kp EXCL,            &kp HASH,             \
 U_NP,                 U_NP,                 U_NA,                 &kp COMMA,             &kp SEMI,   U_NA,    U_NA,                 U_NA,                 U_NP,                U_NP
 
 
