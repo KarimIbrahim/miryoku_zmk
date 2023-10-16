@@ -2,9 +2,9 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_BASE \
-&kp Q,               &kp W,           &kp E,               &kp R,             &kp T,               &kp Y,             &kp U,              &kp I,             &kp O,              &kp P,                 \
-U_MT_L(LGUI, A),    U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    U_MT_L(LSHFT, F),  &kp G,               &kp H,             U_MT_R(RSHFT, J),   U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    U_MT_R(RGUI, SQT),     \
-U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,             &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH), \
+&kp Q,              &kp W,            &kp E,               &kp R,             &kp T,               &kp Y,             &kp U,              &kp I,             &kp O,              &kp P,  \
+U_MT_L(LGUI, A),    U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    U_MT_L(LSHFT, F),  &kp G,               &kp H,             U_MT_R(RSHFT, J),   U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    U_MT_R(RGUI, SQT),  \
+U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,             &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH),  \
 U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),  U_LT(U_SYM, SPACE),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
 
 
@@ -16,17 +16,17 @@ U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),   U
 
 
 #define MIRYOKU_LAYER_NUM \
-U_NA,       &kp N7,  &kp N8,     &kp N9,   U_NA,    U_NA,  &u_to_U_BASE,  &u_to_U_EXTRA,  &u_to_U_TAP,  U_BOOT,    \
-U_NA,       &kp N4,  &kp N5,     &kp N6,   U_NA,    U_NA,  &kp RSHFT,     &kp RCTRL,      &kp RALT,     &kp RGUI,  \
-&kp COMMA,  &kp N1,  &kp N2,     &kp N3,   U_NA,    U_NA,  U_NA,          U_NA,           U_NA,         U_NA,      \
-U_NP,       U_NP,    &kp SPACE,  &kp DOT,  &kp N0,  U_NA,  U_NA,          U_NA,           U_NP,         U_NP
+U_NA,  &kp N7,  &kp N8,  &kp N9,  &kp COMMA,  U_NA,  &u_to_U_BASE,  &u_to_U_EXTRA,  &u_to_U_TAP,  U_BOOT,    \
+U_NA,  &kp N4,  &kp N5,  &kp N6,  U_NA,       U_NA,  &kp RSHFT,     &kp RCTRL,      &kp RALT,     &kp RGUI,  \
+U_NA,  &kp N1,  &kp N2,  &kp N3,  &kp DOT,    U_NA,  U_NA,          U_NA,           U_NA,         U_NA,      \
+U_NP,  U_NP,    U_NA,    &kp N0,  &kp SPACE,  U_NA,  U_NA,          U_NA,           U_NP,         U_NP
 
 
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE,            &kp LBKT,             &kp RBKT,             &kp PRCNT,             U_NA,       U_NA,    &kp LBRC,             &kp RBRC,             &kp AMPS,            U_NA,                 \
-U_MT_L(LGUI, CARET),  U_MT_L(LALT, MINUS),  U_MT_L(LCTRL, PLUS),  U_MT_L(LSHFT, EQUAL),  &kp DLLR,   &kp UNDER,  U_MT_R(RSHFT, LPAR),  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  U_MT_R(RGUI, COLON),  \
-&kp TILDE,            U_NA,                 &kp ASTRK,            &kp BSLH,              U_NA,       U_NA,    &kp AT,            U_NA,                 &kp EXCL,            &kp HASH,             \
-U_NP,                 U_NP,                 U_NA,                 &kp COMMA,             &kp SEMI,   U_NA,    U_NA,                 U_NA,                 U_NP,                U_NP
+&kp GRAVE,            &kp LBKT,            &kp PRCNT,             &kp RBKT,              U_NA,      U_NA,    &kp LBRC,             &kp AMPS,             &kp RBRC,            U_NA,                 \
+U_MT_L(LGUI, MINUS),  U_MT_L(LALT, PLUS),  U_MT_L(LCTRL, ASTRK),  U_MT_L(LSHFT, EQUAL),  &kp HASH,  &kp AT,  U_MT_R(RSHFT, LPAR),  U_MT_R(RCTRL, PIPE),  U_MT_R(RALT, RPAR),  U_MT_R(RGUI, COLON),  \
+&kp TILDE,            &kp CARET,           &kp DLLR,              &kp BSLH,              U_NA,      U_NA,    &kp UNDER,            EXCL,                 &kp U_NA,            U_NA,                 \
+U_NP,                 U_NP,                U_NA,                  &kp COMMA,             &kp SEMI,  U_NA,    U_NA,                 U_NA,                 U_NP,                U_NP
 
 
 #define MIRYOKU_LAYER_MEDIA \
