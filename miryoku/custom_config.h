@@ -2,10 +2,10 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_BASE \
-&kp Q,              &kp W,            &kp E,               &kp R,             &kp T,               &kp Y,             &kp U,              &kp I,             &kp O,              &kp P,  \
-U_MT_L(LGUI, A),    U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    U_MT_L(LSHFT, F),  &kp G,               &kp H,             U_MT_R(RSHFT, J),   U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    U_MT_R(RGUI, SQT),  \
-U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,             &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH),  \
-U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),  U_LT(U_SYM, SPACE),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
+&kp Q,              &kp W,            &kp E,               &kp R,             &kp T,               &kp Y,    &kp U,              &kp I,             &kp O,              &kp P,  \
+U_MT_L(LGUI, A),    U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    U_MT_L(LSHFT, F),  &kp G,               &kp H,    U_MT_R(RSHFT, J),   U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    U_MT_R(RGUI, SQT),  \
+U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH),  \
+U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
 
 
 #define MIRYOKU_LAYER_EXTRA \
