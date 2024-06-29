@@ -9,10 +9,10 @@ U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),  U_
 
 
 #define MIRYOKU_LAYER_EXTRA \
-&kp Q,              &kp W,            &kp F,               &kp P,              &kp B,               &kp J,             &kp L,              &kp U,             &kp Y,              &kp SQT,               \
-U_MT_L(LGUI, A),    U_MT_L(LALT, R),  U_MT_L(LCTRL, S),    U_MT_L(LSHFT, T),   &kp G,               &kp M,             U_MT_R(RSHFT, N),   U_MT_R(RCTRL, E),  U_MT_R(RALT, I),    U_MT_R(RGUI, O),       \
-U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp D,              &kp V,               &kp K,             &kp H,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH), \
-U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),   U_LT(U_SYM, SPACE),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
+&kp Q,              &kp W,            &kp E,               &kp R,             &kp T,               &kp Y,    &kp U,              &kp I,             &kp O,              &kp P,  \
+&kp LGUI,           &kp LALT,         &kp LCTRL,           &kp LSHFT,         &kp G,               &kp LEFT, &kp DOWN,           &kp UP,            &kp RIGHT,          U_MT_R(RGUI, SQT),  \
+U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH),  \
+U_NP,               U_NP,             &kp ESC,             U_LT(U_SYM, TAB),  &kp SPACE,           &kp RET,  &kp BSPC,           &kp DEL,           U_NP,               U_NP
 
 
 #define MIRYOKU_LAYER_NUM \
