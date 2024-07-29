@@ -1,10 +1,36 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+define XXX &none
+
+#define MIRYOKU_LAYOUTMAPPING_CORNE( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+&kp LGUI   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp EQUAL \
+&kp LGUI   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT \
+&kp LSHFT  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
+                K32  K33  K34       K35  K36  K37
+
+#define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
+#define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
+#define MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTINNERINDEX 7 8
+#define MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTPINKIE 8 9
+
+#define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_LEFTPINKIE 26 27
+#define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_LEFTINNERINDEX 27 28
+#define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTINNERINDEX 31 32
+#define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTPINKIE 32 33
+
+#define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 37 38
+#define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 39 40
+
 #define MIRYOKU_LAYER_BASE \
 &kp Q,              &kp W,            &kp E,               &kp R,             &kp T,               &kp Y,    &kp U,              &kp I,             &kp O,              &kp P,  \
-U_MT_L(LGUI, A),    U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    U_MT_L(LSHFT, F),  &kp G,               &kp H,    U_MT_R(RSHFT, J),   U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    U_MT_R(RGUI, SQT),  \
-U_LT(U_BUTTON, Z),  U_MT_L(RALT, X),  &kp C,               &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         U_MT_R(RALT, DOT),  U_LT(U_BUTTON, SLASH),  \
+&kp A,              U_MT_L(LALT, S),  U_MT_L(LCTRL, D),    &kp F,             &kp G,               &kp H,    &kp J,              U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    &kp SEMI,  \
+U_LT(U_BUTTON, Z),  &kp X,            &kp C,               &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         &kp DOT,            U_LT(U_BUTTON, SLASH),  \
 U_NP,               U_NP,             U_LT(U_MEDIA, ESC),  U_LT(U_NAV, TAB),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
 
 
@@ -23,10 +49,10 @@ U_NP,       U_NP,    &kp MINUS,  &kp PLUS,  &kp SPACE,  U_NA,  U_NA,          U_
 
 
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE,            &kp AT,              &kp UNDER,             &kp PRCNT,             U_NA,      &kp GT,     &kp LBRC,             &kp RBRC,             &kp AMPS,            &kp DQT,                 \
-U_MT_L(LGUI, MINUS),  U_MT_L(LALT, PLUS),  U_MT_L(LCTRL, ASTRK),  U_MT_L(LSHFT, EQUAL),  &kp HASH,  &kp LT,     U_MT_R(RSHFT, LPAR),  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  U_MT_R(RGUI, COLON),  \
-&kp TILDE,            &kp CARET,           &kp DLLR,              &kp BSLH,              U_NA,      &kp QMARK,  &kp LBKT,             &kp RBKT,             &kp EXCL,            &kp SEMI,              \
-U_NP,                 U_NP,                U_NA,                  U_NA,                  U_NA,      U_NA,       &kp COMMA,            &kp SEMI,             U_NP,                U_NP
+&kp GRAVE,  &kp AT,              &kp UNDER,             &kp PRCNT,  U_NA,      U_NA,   &kp LBRC,  &kp RBRC,             &kp AMPS,            U_NA,  \
+&kp MINUS,  U_MT_L(LALT, DLLR),  U_MT_L(LCTRL, ASTRK),  &kp HASH,   U_NA,      U_NA,   &kp LPAR,  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  U_NA,  \
+&kp TILDE,  &kp CARET,           U_NA,                  &kp BSLH,   U_NA,      U_NA,   &kp LBKT,  &kp RBKT,             &kp EXCL,            U_NA,  \
+U_NP,       U_NP,                U_NA,                  U_NA,       U_NA,      U_NA,   U_NA,      U_NA,                 U_NP,                U_NP
 
 
 #define MIRYOKU_LAYER_MEDIA \
