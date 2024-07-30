@@ -9,10 +9,10 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp LGUI             K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp EQUAL \
-U_LT(U_MEDIA, ESC)   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT \
-&kp LSHFT            K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
-                               K32  K33  K34       K35  K36  K37
+&kp ESC             K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp EQUAL \
+U_LT(U_MEDIA, TAB)  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT \
+&kp LSHFT           K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
+                              K32  K33  K34       K35  K36  K37
 
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
@@ -31,7 +31,7 @@ U_LT(U_MEDIA, ESC)   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp 
 &kp Q,              &kp W,            &kp E,             &kp R,             &kp T,               &kp Y,    &kp U,              &kp I,             &kp O,              &kp P,  \
 &kp A,              U_MT_L(LALT, S),  U_MT_L(LCTRL, D),  &kp F,             &kp G,               &kp H,    &kp J,              U_MT_R(RCTRL, K),  U_MT_R(RALT, L),    &kp SEMI,  \
 U_LT(U_BUTTON, Z),  &kp X,            &kp C,             &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         &kp DOT,            U_LT(U_BUTTON, SLASH),  \
-U_NP,               U_NP,             &kp LGUI,          U_LT(U_NAV, TAB),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
+U_NP,               U_NP,             &kp LGUI,          U_LT(U_NAV, ESC),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
 
 
 #define MIRYOKU_LAYER_EXTRA \
