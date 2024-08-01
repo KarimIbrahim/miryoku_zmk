@@ -50,7 +50,7 @@ U_NP,       U_NP,    &kp MINUS,  &kp PLUS,  &kp SPACE,  U_NA,  U_NA,          U_
 
 #define MIRYOKU_LAYER_SYM \
 &kp GRAVE,  &kp AT,              &kp UNDER,             &kp PRCNT,  U_NA,      U_NA,   &kp LBRC,  &kp RBRC,             &kp AMPS,            U_NA,  \
-&kp MINUS,  U_MT_L(LALT, DLLR),  U_MT_L(LCTRL, ASTRK),  &kp HASH,   U_NA,      U_NA,   &kp LPAR,  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  U_NA,  \
+&kp MINUS,  U_MT_L(LALT, DLLR),  U_MT_L(LCTRL, ASTRK),  &kp HASH,   U_NA,      U_NA,   &kp LPAR,  U_MT_R(RCTRL, RPAR),  U_MT_R(RALT, PIPE),  &kp COLON,  \
 &kp TILDE,  &kp CARET,           U_NA,                  &kp BSLH,   U_NA,      U_NA,   &kp LBKT,  &kp RBKT,             &kp EXCL,            U_NA,  \
 U_NP,       U_NP,                U_NA,                  U_NA,       U_NA,      U_NA,   U_NA,      U_NA,                 U_NP,                U_NP
 
