@@ -55,10 +55,10 @@ U_NP,       U_NP,    &kp MINUS,  &kp PLUS,  &kp SPACE,  U_NA,  U_NA,          U_
 // U_NP,       U_NP,                U_NA,                  U_NA,       U_NA,      U_NA,   U_NA,      U_NA,                 U_NP,                U_NP
 //
 #define MIRYOKU_LAYER_SYM \
-&kp EXCL,   &kp AT,            &kp HASH,            &kp DLLR,   &kp PRCNT,  &kp CARET,  &kp AMPS,  &kp ASTRK,  &kp LPAR,          &kp RPAR,      \
-&kp MINUS,  U_MT(LALT, PLUS),  U_MT(LCTRL, UNDER),  &kp EQUAL,  U_NA,       U_NA,       U_NA,      &kp RCTRL,  U_MT(RALT, LBRC),  &kp RBRC,  \
-&kp GRAVE,  U_NA,              U_NA,                &kp TILDE,  U_NA,       U_NA,       U_NA,      U_NA,       &kp LBKT,          &kp RBKT,  \
-U_NP,       U_NP,              U_NA,                U_NA,       U_NA,       U_NA,       U_NA,      U_NA,       U_NP,              U_NP
+&kp EXCL,   &kp AT,            &kp HASH,            &kp DLLR,   &kp PRCNT,  &kp CARET,  &kp AMPS,  &kp ASTRK,          &kp LPAR,          &kp RPAR,      \
+&kp MINUS,  U_MT(LALT, PLUS),  U_MT(LCTRL, UNDER),  &kp EQUAL,  U_NA,       U_NA,       U_NA,      U_MT(RCTRL, LBRC),  U_MT(RALT, LBRC),  &kp RBRC,  \
+&kp GRAVE,  U_NA,              U_NA,                &kp TILDE,  U_NA,       U_NA,       U_NA,      U_NA,               &kp LBKT,          &kp RBKT,  \
+U_NP,       U_NP,              U_NA,                U_NA,       U_NA,       U_NA,       U_NA,      U_NA,               U_NP,              U_NP
 
 
 
