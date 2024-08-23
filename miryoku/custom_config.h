@@ -9,7 +9,7 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp GRAVE           K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp EQUAL \
+&kp ESC           K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSLSH \
 U_LT(U_MEDIA, TAB)  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT \
 &kp LSHFT           K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
                               K32  K33  K34       K35  K36  K37
@@ -31,7 +31,7 @@ U_LT(U_MEDIA, TAB)  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp S
 &kp Q,              &kp W,            &kp E,             &kp R,             &kp T,               &kp Y,    &kp U,              &kp I,             &kp O,              &kp P,  \
 &kp A,              U_MT(LALT, S),  U_MT(LCTRL, D),  &kp F,             &kp G,               &kp H,    &kp J,              U_MT(RCTRL, K),  U_MT(RALT, L),    &kp SEMI,  \
 U_LT(U_BUTTON, Z),  &kp X,            &kp C,             &kp V,             &kp B,               &kp N,    &kp M,              &kp COMMA,         &kp DOT,            U_LT(U_BUTTON, SLASH),  \
-U_NP,               U_NP,             &kp LGUI,          U_LT(U_NAV, ESC),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
+U_NP,               U_NP,             &kp LGUI,          U_LT(U_NAV, BSPC),  U_LT(U_SYM, SPACE),  &kp RET,  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,               U_NP
 
 
 #define MIRYOKU_LAYER_EXTRA \
@@ -48,11 +48,18 @@ U_NA,       &kp N1,  &kp N2,     &kp N3,    &kp N0,     U_NA,  U_NA,          U_
 U_NP,       U_NP,    &kp MINUS,  &kp PLUS,  &kp SPACE,  U_NA,  U_NA,          U_NA,           U_NP,         U_NP
 
 
+// #define MIRYOKU_LAYER_SYM \
+// &kp GRAVE,  &kp AT,              &kp UNDER,             &kp PRCNT,  U_NA,      U_NA,        &kp LBRC,  &kp RBRC,             &kp AMPS,            U_NA,  \
+// &kp MINUS,  U_MT(LALT, DLLR),  U_MT(LCTRL, ASTRK),  &kp HASH,   U_NA,      U_NA,        &kp LPAR,  U_MT(RCTRL, RPAR),  U_MT(RALT, PIPE),  &kp COLON,  \
+// &kp TILDE,  &kp CARET,           U_NA,                  &kp BSLH,   U_NA,      &kp QMARK,   &kp LBKT,  &kp RBKT,             &kp EXCL,            U_NA,  \
+// U_NP,       U_NP,                U_NA,                  U_NA,       U_NA,      U_NA,   U_NA,      U_NA,                 U_NP,                U_NP
+//
 #define MIRYOKU_LAYER_SYM \
-&kp GRAVE,  &kp AT,              &kp UNDER,             &kp PRCNT,  U_NA,      U_NA,        &kp LBRC,  &kp RBRC,             &kp AMPS,            U_NA,  \
-&kp MINUS,  U_MT(LALT, DLLR),  U_MT(LCTRL, ASTRK),  &kp HASH,   U_NA,      U_NA,        &kp LPAR,  U_MT(RCTRL, RPAR),  U_MT(RALT, PIPE),  &kp COLON,  \
-&kp TILDE,  &kp CARET,           U_NA,                  &kp BSLH,   U_NA,      &kp QMARK,   &kp LBKT,  &kp RBKT,             &kp EXCL,            U_NA,  \
-U_NP,       U_NP,                U_NA,                  U_NA,       U_NA,      U_NA,   U_NA,      U_NA,                 U_NP,                U_NP
+&kp EXCL,   &kp AT,            &kp HASH,            &kp DLLR,   &kp PRCNT,  &kp CARET,  &kp AMPS,  &kp ASTRK,  &kp LPAR,          &kp RPAR,      \
+&kp MINUS,  U_MT(LALT, PLUS),  U_MT(LCTRL, UNDER),  &kp EQUAL,  U_NA,       U_NA,       U_NA,      &kp RCTRL,  U_MT(RALT, LBRC),  &kp RBRC,  \
+&kp GRAVE,  U_NA,              U_NA,                &kp TILDE,  U_NA,       U_NA,       U_NA,      U_NA,       &kp LBKT,          &kp RBKT,  \
+U_NP,       U_NP,              U_NA,                U_NA,       U_NA,       U_NA,       U_NA,      U_NA,       U_NP,              U_NP
+
 
 
 #define MIRYOKU_LAYER_MEDIA \
